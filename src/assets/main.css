@@ -18,6 +18,7 @@ body {
   display: none;
 }
 
+
 /* py-config - not a component */
 py-config {
   display: none
@@ -32,6 +33,7 @@ py-repl:not(:defined) {
   display: none
 }
 
-#runButton {
-  right: "13rem";
+#runButton, .py-repl-run-button {
+  position: absolute;
+  right: 13rem;
 }
