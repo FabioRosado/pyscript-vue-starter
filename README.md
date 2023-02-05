@@ -15,9 +15,15 @@ In this template, we have included different features and examples to help you g
 - [x] Use Python libraries in your Vue components by writing your Python code in the `<py-script>` tag.
 - [ ] Save state in your Vue components using the `useStore` hook and read it in python code.
 - [ ] Save data in local and session storage using the `useStorage` hook and read it in python code.
-- [ ] Install python dependencies and reuse them in your Vue components.
+- [x] Install python dependencies and reuse them in your Vue components.
 - [ ] Dynamically install python dependencies and reuse them in your Vue components.
 
+
+## Installing dependencies and configuring Pyscript
+
+This starter currently has a `<py-config>` tag on the `index.html` file and installs the `numpy` and `matplotlib` libraries. This is mostly to show you how you can add your dependencies or any other pyscript configuration. By adding your configuration on the `index.html` file, the configuration will be available across all the pages.
+
+Please refer to the [`py-config` documentation](https://docs.pyscript.net/latest/reference/elements/py-config.html) for more information about the configurations available to you in pyscript.
 
 ## Key changes for Pyscript to work with Vue 3
 

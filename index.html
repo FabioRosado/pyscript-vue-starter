@@ -8,6 +8,13 @@
     <title>Pyscript Vue Starter</title>
   </head>
   <body>
+
+    <!-- Add py-config tag to the index page so packages and any config 
+    will be available in the SPA. -->
+    <py-config>
+      packages = ["numpy", "matplotlib"]
+    </py-config>
+
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

@@ -90,5 +90,6 @@ import SupportIcon from './icons/IconSupport.vue'
     
     test()
   </py-script>
+  <py-repl></py-repl>
 
 </template>
